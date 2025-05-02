@@ -159,12 +159,12 @@ ________________________________________
 
 - Gráfico em Boxplot
 <div style="display: flex; flex-wrap: wrap">
-<img src="https://github.com/lucasrigobello/gods-unchained-api/blob/c4a9cfa1b7ab49832bb6a95a1e9ac5cdc6f4cfa0/notebook/EDA%20Results/numerical_features_boxplot.png?raw=true" width="450">
+<img src="https://github.com/lucasrigobello/gods-unchained-api/blob/f75acd4e79250fd5ff3df987f649fd882fae9c67/notebook/EDA%20Results/numerical_features_boxplot.png?raw=true" width="450">
 </div>
 
 - Gráfico de Histograma
 <div style="display: flex; flex-wrap: wrap">
-<img src="https://github.com/lucasrigobello/gods-unchained-api/blob/c4a9cfa1b7ab49832bb6a95a1e9ac5cdc6f4cfa0/notebook/EDA%20Results/numerical_features_histogram_mana.png?raw=true" width="450"/>
+<img src="https://github.com/lucasrigobello/gods-unchained-api/blob/f75acd4e79250fd5ff3df987f649fd882fae9c67/notebook/EDA%20Results/numerical_features_histogram_mana.png?raw=true" width="450"/>
 <img src="https://github.com/lucasrigobello/gods-unchained-api/blob/c4a9cfa1b7ab49832bb6a95a1e9ac5cdc6f4cfa0/notebook/EDA%20Results/numerical_features_histogram_attack.png?raw=true" width="450"/>
 <img src="https://github.com/lucasrigobello/gods-unchained-api/blob/c4a9cfa1b7ab49832bb6a95a1e9ac5cdc6f4cfa0/notebook/EDA%20Results/numerical_features_histogram_health.png?raw=true" width="450"/>
 </div>
