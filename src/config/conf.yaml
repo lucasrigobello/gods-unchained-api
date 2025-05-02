@@ -1,0 +1,11 @@
+numerical_features:
+ - mana
+ - attack
+ - health
+
+categorical_features:
+  - type
+  - god
+
+target:
+ - strategy
