@@ -10,6 +10,7 @@ categorical_features = conf_features['categorical_features']
 target = conf_features['target']
 
 class Test_Data:
+  __test__ = False
   def __init__(self, id):
     # load base de dados
     self.df_train = pd.read_csv('./data/challenge_train.csv', sep = ';')
