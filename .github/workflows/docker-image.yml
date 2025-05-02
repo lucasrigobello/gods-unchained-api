@@ -28,4 +28,3 @@ jobs:
         context: .
         push: true
         tags: lucasrigobello/gods-unchained-api:latest
-
