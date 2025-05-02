@@ -1,0 +1,39 @@
+title: Classificação de Cards de Gods Unchained - API com FastAPI
+summary: Classificador de **strategy**
+
+description: >
+  Esta API foi desenvolvida para classificar os cards do jogo **Gods Unchained** como **"early game"** 
+  ou **"late game"** com base em atributos como **mana, attack, health, type e god**. 
+  O modelo treinado utiliza técnicas de machine learning para realizar essa predição e é exposto publicamente 
+  através de uma API criada com **FastAPI**.
+
+
+  Para se preparar para o jogo Gods Unchained, utilize desta ferramenta classificadora
+  de estratégia do card, entre **"early"** ou **"late"** game.
+  O ID do card deve ser utilizado para as requisições da classificação, através da rota **/classificar**.
+  O dataset com as features **"mana", "attack", "health", "type" e "god"**, informações relacionadas aos cards de Gods Unchained,
+  é empregado no treinamento e predição do modelo de classificação.
+
+version: "0.0.1"
+
+contact:
+  name: "Lucas Rigobello"
+  email: "lucasrigobello@gmail.com"
+      
+license_info:
+  name: "GitHub repositório"
+  url: "https://github.com/lucasrigobello/gods-unchained-api"
+
+openapi_tags:
+  -
+    "name": "Classificar"
+    "description": "Realize a classificação da stratetgia do seu card, providenciando o id."
+  -
+    "name": "Base de Dados"
+    "description": "Atualize a base de treinamento ou a base de Teste."
+  -
+    "name": "Avaliar Modelo"
+    "description": "Avalie as métricas do modelo atual na base de dados presente."
+  -
+    "name": "Treinar Novo Modelo"
+    "description": "Execute o treinmaneto de um novo modelo, com na base de dados presente."
